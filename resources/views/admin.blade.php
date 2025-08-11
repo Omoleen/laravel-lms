@@ -14,6 +14,9 @@
             <li>
                 <a href="{{ route('students.index') }}">Students</a>
             </li>
+            <li>
+                <a href="{{ route('courses.index') }}">Courses</a>
+            </li>
         </ul>
     </div>
     @yield('content')
